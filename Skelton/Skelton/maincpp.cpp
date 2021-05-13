@@ -60,6 +60,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			rcA.center.y += speed;
 		}
 		DrawBox(rcA.Left(), rcA.Top(), rcA.Right(), rcA.Bottom(), 0xffffff, true);
+		DrawFormatString(10, 10, 0xffffaa, L"x=%d,y=%d", (int)rcA.center.x, (int)rcA.center.y);
 		ScreenFlip();
 	}
 	DxLib_End();
