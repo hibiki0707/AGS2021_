@@ -1,0 +1,2 @@
+D:\AGS2021_\AGS2021_\Skelton\Skelton\x64\Debug\Skelton.exe
+D:\AGS2021_\AGS2021_\Skelton\Skelton\x64\Debug\Skelton.pdb
