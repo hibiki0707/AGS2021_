@@ -60,7 +60,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		//wsprintf(path,L"01" , i);
 		//graphH[i] = DxLib::LoadGraph(path);
 		graphH[i] = DxLib::LoadGraph(pathOss.str().c_str());
-		assert(graphH[i] != -1);
+		//assert(graphH[i] != -1);
 	}
 
 	unsigned int frame = 0;
