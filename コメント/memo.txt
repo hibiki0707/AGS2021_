@@ -59,7 +59,7 @@ C言語のsprintfとかと違って、可変長文字列にも対応できる。
 これ自体がオブジェクトなので、ostringstreamオブジェクトのスコープを
 抜けた時点でメモリは解放される。
 
-strigstream自体はstd::stringの上位概念です。
+strigstream自体はstd::stringを内包しています。
 関数str()でstringstreamからstring型を得ることができます。
 string型はc_str（）関数で、文字配列としての文字列（C言語文字列）をえること
 なので・・・
